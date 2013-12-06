@@ -1,6 +1,6 @@
 /***********************
 Trevor Richardson
-Assignment 2
+Basic stat calculator
 ***********************/
 #include <iostream>  // allows program to perform input and output
 using namespace std; // forgive me

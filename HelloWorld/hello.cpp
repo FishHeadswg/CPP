@@ -1,6 +1,6 @@
 /***********************
 Trevor Richardson
-Assignment 1
+C++ Hello World
 ***********************/
 
 #include <iostream>  // allows program to perform input and output
