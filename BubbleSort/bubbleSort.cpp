@@ -15,9 +15,9 @@ BubbleSort::BubbleSort(const int myArray[], const size_t arraySize)
   std::copy(&myArray[0], &myArray[arraySize], back_inserter(myVector));
   std::cout << "Data items in original order\n";
   // output original vector
-  std::vector<int>::const_iterator constIterator = myVector.begin();
-  for ( ; constIterator != myVector.end(); ++constIterator )
-    std::cout << std::setw( 4 ) << *constIterator; 
+  typedef std::vector<int>::const_iterator constIterator;
+  for ( constIterator it = myVector.begin(); it != myVector.end(); ++it )
+    std::cout << std::setw( 4 ) << *it; 
 } // end constructor
 
 void BubbleSort::sortVector()    // bubble sort
