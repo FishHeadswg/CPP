@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1486203966 source:c:\users\mhcrnl\desktop\cpp-6\account\account.cpp
+	<iostream>
+	"Account.h"
+
+1486206067 c:\users\mhcrnl\desktop\cpp-6\account\account.h
+	<iostream>
+	"../AcountMhcrnl/persoana.h"
+	<string>
+
+1486205614 source:c:\users\mhcrnl\desktop\cpp-6\acountmhcrnl\main.cpp
+	<iostream>
+	"../Account/Account.h"
+	"persoana.h"
+
+1486204954 c:\users\mhcrnl\desktop\cpp-6\acountmhcrnl\persoana.h
+	<iostream>
+	<string>
+
+1486202980 source:c:\users\mhcrnl\desktop\cpp-6\acountmhcrnl\persoana.cpp
+	"persoana.h"
+
